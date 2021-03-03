@@ -8,6 +8,9 @@ from flask import Flask, render_template, jsonify, request
 from flask import request
 app = Flask(__name__)
 
+# new comm
+test=1
+
 # Avec Flask, les décorateurs sont utilisés pour 
 # associer une URL à une fonction. Ici, on associe 
 # donc la fonction  hello  à l’URL /.
